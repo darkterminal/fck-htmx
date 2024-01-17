@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code[class="language-php"] {
+    font-size: 1rem !important;
+}
