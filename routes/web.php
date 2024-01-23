@@ -4,6 +4,9 @@ $app->router->get('/', 'SiteController@home');
 $app->router->get('/component', 'SiteController@component');
 $app->router->post('/set-theme', 'SiteController@setTheme');
 
+$app->router->get('/counter', 'SiteController@counter');
+$app->router->post('/counter/{counterType}', 'SiteController@counter');
+
 $app->router->get('/login', 'AuthController@login');
 $app->router->post('/login', 'AuthController@login');
 

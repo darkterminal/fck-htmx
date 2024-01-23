@@ -26,6 +26,7 @@ use App\config\helpers\Utils;
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
             <li><a href="/">Home</a></li>
+            <li><a href="/counter">Counter Example</a></li>
             <li><a href="/component">The fck. Component</a></li>
             <?php if (isAuthenticate()) : ?>
                 <li><a href="/profile">Profile</a></li>
